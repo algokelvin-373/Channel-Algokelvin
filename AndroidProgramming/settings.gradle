@@ -1,2 +1,3 @@
+include ':chapter-02-android-lifecycle-part-01'
 rootProject.name='LearningAndroidKotlinAlgokelvin'
 include ':app'
