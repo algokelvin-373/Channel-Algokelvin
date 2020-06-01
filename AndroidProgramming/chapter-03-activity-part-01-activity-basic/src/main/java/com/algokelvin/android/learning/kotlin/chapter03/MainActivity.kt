@@ -12,18 +12,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.d("chapter-03", "Run onCreate")
 
-        btnOK.setOnClickListener {
-            tvYourName.text = "Your name is ${edtYourName.text}"
-        }
     }
 
     override fun onStart() {
         super.onStart()
         Log.d("chapter-03", "Run onStart")
 
-        btnOK.setOnClickListener {
-            tvYourName.text = "Your name is ${edtYourName.text} onStart"
-        }
     }
 
     override fun onResume() {
