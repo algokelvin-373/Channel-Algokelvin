@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">chapter-05-activity-part-02-activity-with-intent</string>
+    <string name="chapter05">Chapter 05: Intent Basic</string>
+    <string name="main_page">This is Main Page</string>
+    <string name="button_introduction">Click Here to go Page Two</string>
+    <string name="button_to_page_two">Go to Page Two</string>
+    <string name="page_two">You are in Page Two</string>
+    <string name="back_to_main">Click Here to Back Main Page</string>
+    <string name="back">Back</string>
+</resources>
