@@ -1,3 +1,6 @@
-include ':chapter-02-android-lifecycle-part-01'
 rootProject.name='LearningAndroidKotlinAlgokelvin'
-include ':app'
+include ':app',
+        ':chapter-02-android-lifecycle-part-01',
+        ':chapter-03-activity-part-01-activity-basic',
+        ':chapter-04-activity-part-02-on-save-instance',
+        ':chapter-05-intent-part-01-intent-basic'
