@@ -5,7 +5,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="16dp"
-    tools:context=".MainActivity">
+    android:background="@android:color/holo_blue_bright"
+    tools:context=".PageTwoActivity">
 
     <TextView
         android:text="@string/chapter06"
@@ -17,7 +18,7 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:text="@string/main_page"
+        android:text="@string/page_two"
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:gravity="center"
@@ -26,7 +27,7 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:text="@string/button_introduction"
+        android:text="@string/back_to_main"
         android:textColor="@android:color/black"
         android:textSize="16sp"
         android:gravity="center"
@@ -35,8 +36,8 @@
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btnToPageTwo"
-        android:text="@string/button_to_page_two"
+        android:id="@+id/btnToMainPage"
+        android:text="@string/back"
         android:textColor="@android:color/black"
         android:textSize="14sp"
         android:layout_gravity="center"
@@ -45,24 +46,24 @@
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:text="@string/input_data"
+        android:text="@string/your_data"
         android:textSize="14sp"
         android:textColor="@android:color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <EditText
-        android:id="@+id/edtData"
-        android:inputType="text"
+    <TextView
+        android:id="@+id/tvDataBrought"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="Autofill,LabelFor" />
+        android:layout_height="wrap_content"/>
 
-    <EditText
-        android:id="@+id/edtDataInteger"
-        android:inputType="number"
+    <TextView
+        android:id="@+id/tvDataIntegerBrought"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="Autofill,LabelFor" />
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

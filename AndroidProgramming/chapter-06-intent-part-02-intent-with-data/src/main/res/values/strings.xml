@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">chapter-06-intent-part-02-intent-with-data</string>
+    <string name="chapter06">Chapter 06: Intent with Data</string>
+    <string name="main_page">This is Main Page</string>
+    <string name="button_introduction">Click Here to go Page Two</string>
+    <string name="button_to_page_two">Go to Page Two</string>
+    <string name="page_two">You are in Page Two</string>
+    <string name="back_to_main">Click Here to Back Main Page</string>
+    <string name="back">Back</string>
+    <string name="input_data">Input Data :</string>
+    <string name="your_data">Your Data</string>
 </resources>
