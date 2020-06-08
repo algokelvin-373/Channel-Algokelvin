@@ -24,8 +24,5 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         Log.d("chapter-03", "Run onResume")
 
-        btnOK.setOnClickListener {
-            tvYourName.text = "Your name is ${edtYourName.text} onResume"
-        }
     }
 }

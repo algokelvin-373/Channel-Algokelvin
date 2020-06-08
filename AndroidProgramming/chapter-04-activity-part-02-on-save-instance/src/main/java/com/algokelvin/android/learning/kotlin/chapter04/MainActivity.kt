@@ -10,19 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //TODO: Check value 'DATA_NAME' from bundle onSaveInstance
-        if (savedInstanceState != null) {
-            tvYourName.text = savedInstanceState.getString("DATA_NAME").toString()
-        }
-
         btnOK.setOnClickListener {
             tvYourName.text = "Your name is ${edtYourName.text}"
         }
     }
 
-    //TODO: Implement onSaveInstance
-    override fun onSaveInstanceState(outState: Bundle) {
-        super.onSaveInstanceState(outState)
-        outState.putString("DATA_NAME", tvYourName.text.toString())
-    }
 }
