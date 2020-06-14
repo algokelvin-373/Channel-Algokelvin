@@ -1,4 +1,4 @@
-package com.algokelvin.android.learning.kotlin.chapter07
+package com.algokelvin.android.learning.kotlin.chapter08
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
