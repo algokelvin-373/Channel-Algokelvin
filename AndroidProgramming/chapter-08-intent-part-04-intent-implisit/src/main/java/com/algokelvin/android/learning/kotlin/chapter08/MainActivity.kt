@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.provider.MediaStore
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -69,4 +70,22 @@ class MainActivity : AppCompatActivity() {
         intent.type = "image/*"
         startActivityForResult(intent, IMAGE_PICK_CODE)
     }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        when(requestCode) {
+            REQUEST_SELECT_PHONE_NUMBER -> {
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) getContact()
+                else Toast.makeText(this, "Contact Phone Permission denied", Toast.LENGTH_SHORT).show()
+            }
+            CAMERA_REQUEST -> {
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) takeImageFromCamera()
+                else Toast.makeText(this, "Camera Permission denied", Toast.LENGTH_SHORT).show()
+            }
+            PERMISSION_CODE_TAKE_FROM_GALLERY -> {
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) takeImageFromGallery()
+                else Toast.makeText(this, "Gallery Permission denied", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
 }
