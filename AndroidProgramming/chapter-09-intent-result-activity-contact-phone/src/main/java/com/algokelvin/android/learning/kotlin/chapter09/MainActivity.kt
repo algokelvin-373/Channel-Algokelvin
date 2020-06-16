@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         btnContactPhone.setOnClickListener {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                if (checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED)
-                    requestPermissions(arrayOf(Manifest.permission.CAMERA), REQUEST_SELECT_PHONE_NUMBER)
+                if (checkSelfPermission(Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED)
+                    requestPermissions(arrayOf(Manifest.permission.READ_CONTACTS), REQUEST_SELECT_PHONE_NUMBER)
                 else
                     getContact()
             }
