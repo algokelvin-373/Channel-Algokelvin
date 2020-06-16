@@ -3,4 +3,9 @@ include ':app',
         ':chapter-02-android-lifecycle-part-01',
         ':chapter-03-activity-part-01-activity-basic',
         ':chapter-04-activity-part-02-on-save-instance',
-        ':chapter-05-intent-part-01-intent-basic'
+        ':chapter-05-intent-part-01-intent-basic',
+        ':chapter-06-intent-part-02-intent-with-data',
+        ':chapter-07-intent-part-03-intent-with-data-parcelable',
+        ':chapter-08-intent-part-04-intent-implisit',
+        ':chapter-09-intent-part-05-intent-result-activity-contact-phone',
+        ':chapter-10-intent-part-06-intent-result-activity-camera-gallery'
