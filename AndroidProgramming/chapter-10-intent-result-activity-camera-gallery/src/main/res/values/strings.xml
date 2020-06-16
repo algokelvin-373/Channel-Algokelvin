@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">chapter-10-intent-result-activity-camera-gallery</string>
+    <string name="chapter_10_intent_implisit">Chapter 10: Intent onResultActivity Camera Gallery</string>
+    <string name="go_to_contact_phone">Go to Contact Phone</string>
+    <string name="contact_phone">Contact Phone</string>
+    <string name="sample_number_phone">Sample Number Phone</string>
+    <string name="camera">Camera</string>
+    <string name="todo">todo</string>
+    <string name="gallery">Gallery</string>
+</resources>
