@@ -15,5 +15,6 @@ class MainActivity : AppCompatActivity() {
             val intentToPageTwo = Intent(this, PageTwoActivity::class.java)
             startActivity(intentToPageTwo)
         }
+
     }
 }
