@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "chapter-011-013-recyclerview-part01"
