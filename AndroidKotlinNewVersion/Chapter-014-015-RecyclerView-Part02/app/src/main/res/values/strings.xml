@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Chapter-014-015-RecyclerView-Part02</string>
+    <string name="avenger">avenger</string>
+    <string name="sample">Sample</string>
+    <string name="todo">TODO</string>
+    <string name="iron_man">Iron Man</string>
 </resources>
