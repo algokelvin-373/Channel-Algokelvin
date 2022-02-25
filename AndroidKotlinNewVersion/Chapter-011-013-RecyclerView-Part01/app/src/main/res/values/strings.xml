@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">chapter-011-013-recyclerview-part01</string>
+    <string name="sample">Sample</string>
+    <string name="add_data">add Data</string>
+    <string name="data">Data</string>
+    <string name="index">Index</string>
+    <string name="delete_data">Delete Data</string>
+    <string name="delete">Delete</string>
+    <string name="delete_multiple">Delete Multiple</string>
+    <string name="delete_all">Delete All</string>
 </resources>
